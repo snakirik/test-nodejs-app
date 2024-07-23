@@ -3,7 +3,7 @@
 # Pre-requisites
 
 1. A Jenkins server 
-1. A EC2 instance (Application server) and deploy node.js 
+1. A EC2 instance (Application server) and deploy node.js ll
 
 ### Setup nodejs packages on jenkins (needed for build) and application server (needed to deploy)
 1. Enable nodejs packages on Linux server 
