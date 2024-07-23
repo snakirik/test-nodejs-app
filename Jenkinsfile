@@ -1,7 +1,7 @@
 pipeline {
     agent any
     /** triggers { pollSCM '* * * * *' } **/
-    properties([pipelineTriggers([[$class: 'GitHubPushTrigger'], pollSCM('* * * * *')])])
+    /** properties([pipelineTriggers([[$class: 'GitHubPushTrigger'], pollSCM('* * * * *')])]) **/
     /** triggers {
       githubPush()
     } **/
